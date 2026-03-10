@@ -77,7 +77,7 @@ Gemini Embedding Model
     ↓
 Astra DB Vector Store
 ```
-
+# From the sources mentioned below, 863 record are stored in the vector database, when someone search then by the cosine similarity the corresponding data ase being fetched and sent to LLM for generating the answers based on the data
 
 ### Source of the data:
 ```
@@ -103,7 +103,6 @@ Astra DB Vector Store
     "https://en.wikipedia.org/wiki/Turnip",
 ```
 
-### From the above source 863 record are stored in the vector database, when some search then by the cosine similarity the corresponding data ase being fetched and sent to LLM for generating the answers based on the data
 
 
 **Status:** Production Ready • **Version:** 1.0 • **Last Updated:** March 2026
